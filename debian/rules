@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+UPSTREAM_VERSION ?= $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel
+
+get-orig-source:
+	uscan --verbose --force-download --no-symlink
+	mv ../QtCurve-Gtk2-$(UPSTREAM_VERSION).tar.bz2 ../gtk2-engines-qtcurve_$(UPSTREAM_VERSION).orig.tar.bz2
+
+.PHONY: override_dh_auto_test

@@ -1,0 +1,260 @@
+gtk2-engines-qtcurve (1.8.8-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 13:22:49 +0300
+
+gtk2-engines-qtcurve (1.8.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build depends against libcairo2-dev >= 1.10 (Closes: #607040)
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 20 Feb 2011 12:13:05 +0200
+
+gtk2-engines-qtcurve (1.8.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 30 Jan 2011 18:57:14 +0200
+
+gtk2-engines-qtcurve (1.8.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 26 Dec 2010 13:43:31 +0200
+
+gtk2-engines-qtcurve (1.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 11 Dec 2010 14:40:51 +0200
+
+gtk2-engines-qtcurve (1.6.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Alexander Reichle-Schmehl ]
+  * Disable QTC_MODIFY_MOZILLA to not interfere with foreign configuration
+    files. (Closes: #590521)
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 06 Oct 2010 14:51:31 +0300
+
+gtk2-engines-qtcurve (1.5.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 22 Jul 2010 09:48:13 +0300
+
+gtk2-engines-qtcurve (1.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 11 Jul 2010 09:14:53 +0300
+
+gtk2-engines-qtcurve (1.5.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standard-Version to 3.9.0 (no changes needed).
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 30 Jun 2010 10:09:44 +0300
+
+gtk2-engines-qtcurve (1.4.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 30 May 2010 12:09:50 +0300
+
+gtk2-engines-qtcurve (1.4.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 18 May 2010 11:30:31 +0300
+
+gtk2-engines-qtcurve (1.3.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 13 Apr 2010 11:08:20 +0300
+
+gtk2-engines-qtcurve (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 23 Mar 2010 12:01:10 +0100
+
+gtk2-engines-qtcurve (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/control: Suggests kde-style-qtcurve instead of Recommends.
+  * Update debian/watch: update upstream tarball url.
+
+ -- Fathi Boudra <fabo@debian.org>  Fri, 26 Feb 2010 16:50:21 +0100
+
+gtk2-engines-qtcurve (1.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Update debian/control:
+    - Bump Standard-Version to 3.8.4 (no changes needed).
+  * Update debian/copyright:
+    - Update upstream author e-mail address.
+    - Update copyright years.
+  * Update debian/rules:
+    - Enable parallel build (pass --parallel option to dh).
+    - Update get-orig-source target to rename original tarball.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 13 Feb 2010 15:41:01 +0100
+
+gtk2-engines-qtcurve (0.69.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 14 Nov 2009 18:06:01 +0100
+
+gtk2-engines-qtcurve (0.68.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/control:
+    - Bump Standard-Version to 3.8.3 (no changes needed).
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 07 Oct 2009 14:06:28 +0200
+
+gtk2-engines-qtcurve (0.67.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/control:
+    - Bump debhelper build dependency version.
+  * Update debian/copyright: up-to-date.
+  * Update debian/rules:
+    - Cleanup since dh support cmake.
+    - Add get-orig-source target.
+  * Add debian/watch file.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 16 Aug 2009 10:37:41 +0200
+
+gtk2-engines-qtcurve (0.65.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 30 Jun 2009 20:38:57 +0200
+
+gtk2-engines-qtcurve (0.65.0-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #512561)
+  * Set KDE Extras team in Maintainer field and myself in Uploaders field.
+    (Closes: #529441)
+  * Bump compat/debhelper to 7.
+  * Update debian/control:
+    - Bump Standard-Version to 3.8.2 (no changes needed).
+    - Add Vcs-Browser and Vcs-Svn fields.
+    - Use uppercase GNOME in description.
+  * Update debian/rules:
+    - Rewrite to use dh.
+    - Build with -DQTC_MODIFY_MOZILLA=true for enhanced Firefox integration.
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 25 Jun 2009 10:29:52 +0200
+
+gtk2-engines-qtcurve (0.59.5-1) unstable; urgency=low
+
+  * New upstream release. Too many changes since 55.2 to list them all here.
+  * Bumped standards version.
+
+ -- Bastian Venthur <venthur@debian.org>  Fri, 04 Jul 2008 10:58:11 +0200
+
+gtk2-engines-qtcurve (0.55.2-2) unstable; urgency=low
+
+  * Bumped standards version 
+  * Updated FSF address (Closes: #461892)
+
+ -- Bastian Venthur <venthur@debian.org>  Wed, 26 Mar 2008 15:20:23 +0100
+
+gtk2-engines-qtcurve (0.55.2-1) unstable; urgency=low
+
+  * New upstream version 
+
+ -- Bastian Venthur <venthur@debian.org>  Sun, 20 Jan 2008 17:22:26 +0100
+
+gtk2-engines-qtcurve (0.52.3-1) unstable; urgency=low
+
+  0.52.3
+  * Fix 1st stripe on vertical progress bar.
+  * Fix very small progress bar chunks.
+  * Fix blanked out widgets in tovid.
+  * Fix DeVeDe crash when 'fix parentless dialogs' is enabled.
+
+  0.52.2
+  * Don't lighten border of disabled check/radio buttons.
+  * Lighten trough of disabled slider. 
+
+ -- Bastian Venthur <venthur@debian.org>  Fri, 10 Aug 2007 10:03:47 +0200
+
+gtk2-engines-qtcurve (0.52.1-1) unstable; urgency=low
+
+  New upstream version
+  
+  * Draw emphasis around menus when not lightening.
+  * Use button colors to border entry fields.
+  * Fix menu standard background.
+
+ -- Bastian Venthur <venthur@debian.org>  Sun, 24 Jun 2007 13:10:56 +0200
+
+gtk2-engines-qtcurve (0.52-1) unstable; urgency=low
+
+  * New upstream version
+
+  * Use 'dull glass' as the default gradient - previous default is now
+    called 'Clean'.
+  * Darken slider mouse over colour if slider is not shaded.
+  * Use thinner slider mouse over sections if slider is not shaded.
+  * Improve look of small V arrows.
+  * Even duller dull glass, but much more useable.
+  * Implement 'plastik' style mouse over for square sliders.
+  * Fix bottom/right scrollbar arrow position.
+  * Fix spinbutton arrow position.
+  * Fix SWT combo arrows.
+  * Don't prelight SWT combos - they don't un-prelight when activated!
+  * For non editable combos, draw both an up and a down arrow.
+  * For editable combos - make menu more KDE list like.
+
+ -- Bastian Venthur <venthur@debian.org>  Tue, 19 Jun 2007 17:33:59 +0200
+
+gtk2-engines-qtcurve (0.51-2) unstable; urgency=low
+
+  * Changed priority from extra to optional 
+
+ -- Bastian Venthur <venthur@debian.org>  Mon, 11 Jun 2007 11:20:11 +0200
+
+gtk2-engines-qtcurve (0.51-1)  unstable; urgency=low
+
+  * New Upstream version (Closes: #427040)
+  * Corrected recommends-field (Closes: #427873)
+  * Removed debian/dirs (Closes: #427874)
+
+  * Changed shading to use HSL colour space. This can be altered by editing
+    $XDG_CONFIG_HOME/qtcurvestylerc and setting 'shading=simple' for the 
+    previous method, or 'shading=hsv' to use HSV.
+  * Add options:
+      Border all of menu/toolbars.
+      Darker borders.
+      'V' arrows.
+  * Fix raised listview headers.
+  * Fix glass style menuitem appearance.
+  * Modifed look of dullglass, looks "softer"
+  * Improve look of plastik mouse-over for non coloured scrollbars.
+  * For disabled buttons, use standard fill but lighten border.
+  * Use darker colours for mouse-over and default button - helps with light
+    colour schemes.
+  * Dont draw sunken panel around checked menuitems.
+  * If the app is a Java app, and its g_get_application_name()!="unknown",
+    then assume its a SWT java app - in which case treat as a standard app. For
+    Swing apps some functionality is disabled.
+  * Fix tabs in thunderbird.
+
+ -- Bastian Venthur <venthur@debian.org>  Mon, 11 Jun 2007 10:26:42 +0200
+
+gtk2-engines-qtcurve (0.50-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Bastian Venthur <venthur@debian.org>  Fri, 25 May 2007 12:52:24 +0200
+

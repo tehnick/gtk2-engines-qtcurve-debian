@@ -1,0 +1,20 @@
+Source: gtk2-engines-qtcurve
+Section: gnome
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>
+Build-Depends: debhelper (>= 7.4.15), cmake, libgtk2.0-dev, libcairo2-dev (>= 1.10)
+Standards-Version: 3.9.2
+Homepage: http://www.kde-look.org/content/show.php?content=40492
+Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/gtk2-engines-qtcurve/trunk/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/gtk2-engines-qtcurve/?op=log
+
+Package: gtk2-engines-qtcurve
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: kde-style-qtcurve
+Description: This is a set of widget styles for Gtk2 based apps
+ This package together with kde-style-qtcurve aim to provide a unified look
+ and feel on the desktop when using KDE and GNOME applications.
+ .
+ This package is most useful when installed together with kde-style-qtcurve.
