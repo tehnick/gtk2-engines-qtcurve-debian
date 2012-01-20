@@ -1,3 +1,14 @@
+gtk2-engines-qtcurve (1.8.12-1) unstable; urgency=low
+
+  * New upstream release.
+  * New maintainer of the package. (Closes: #641952)
+  * Vcs-* fields in debian/control were updated.
+  * File debian/copyright was rewritten in according to DEP-5.
+    All files were rechecked, copyright information was updated.
+  * kde-style-qtcurve was moved from Suggests to Recommends.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 20 Jan 2012 21:52:45 +0200
+
 gtk2-engines-qtcurve (1.8.8-1) unstable; urgency=low
 
   * New upstream release.
