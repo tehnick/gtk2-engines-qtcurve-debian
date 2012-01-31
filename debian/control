@@ -1,8 +1,7 @@
 Source: gtk2-engines-qtcurve
 Section: gnome
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Boris Pek <tehnick-8@mail.ru>
+Maintainer: Boris Pek <tehnick-8@mail.ru>
 Build-Depends: debhelper (>= 7.4.15), cmake, libgtk2.0-dev, libcairo2-dev (>= 1.10)
 Standards-Version: 3.9.2
 Homepage: http://www.kde-look.org/content/show.php?content=40492
