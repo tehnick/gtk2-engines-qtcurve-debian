@@ -2,11 +2,13 @@ Source: gtk2-engines-qtcurve
 Section: gnome
 Priority: optional
 Maintainer: Boris Pek <tehnick-8@mail.ru>
-Build-Depends: debhelper (>= 7.4.15), cmake, libgtk2.0-dev, libcairo2-dev (>= 1.10)
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.4.15), cmake,
+ libgtk2.0-dev, libcairo2-dev (>= 1.10)
 Homepage: http://www.kde-look.org/content/show.php?content=40492
 Vcs-Git: git://github.com/tehnick/gtk2-engines-qtcurve-debian.git
 Vcs-Browser: https://github.com/tehnick/gtk2-engines-qtcurve-debian
+Standards-Version: 3.9.3
+DM-Upload-Allowed: yes
 
 Package: gtk2-engines-qtcurve
 Architecture: any

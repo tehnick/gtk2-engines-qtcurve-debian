@@ -1,3 +1,12 @@
+gtk2-engines-qtcurve (1.8.14-1) unstable; urgency=low
+
+  * Update to stable release 1.8.14.
+  * Bumped Standards-Version to 3.9.3.
+  * URL in Format field was updated in debian/copyright.
+  * Added string `DM-Upload-Allowed: yes' in debian/control.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 02 Mar 2012 23:32:36 +0200
+
 gtk2-engines-qtcurve (1.8.12-1) unstable; urgency=low
 
   * New upstream release.
