@@ -1,3 +1,12 @@
+gtk2-engines-qtcurve (1.8.15-1) unstable; urgency=low
+
+  * Update to stable release 1.8.15.
+  * Fixes from upstream: fixed tab activation (via mouse) when engine is
+    configured to drag windows from all empty areas and either highlight
+    is set to 0% or colored mouse over is set to none. (Closes: #641599)
+
+ -- Boris Pek <tehnick-8@mail.ru>  Wed, 25 Apr 2012 01:06:21 +0300
+
 gtk2-engines-qtcurve (1.8.14-1) unstable; urgency=low
 
   * Update to stable release 1.8.14.
