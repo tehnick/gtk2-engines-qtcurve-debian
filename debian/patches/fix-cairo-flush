@@ -1,0 +1,14 @@
+Description: Fix memory leak
+Author: Boris Pek <tehnick-8@mail.ru>
+Last-Update: 2012-10-24
+
+--- a/style/shadowhelper.c
++++ b/style/shadowhelper.c
+@@ -58,6 +58,7 @@
+         cairo_rectangle(cr, 0, 0, shadowSize, shadowSize);
+         cairo_fill(cr);
+         cairo_destroy(cr);
++        cairo_surface_destroy(dest);
+         g_object_unref(pixbuf);
+         return pixmap;
+     }
