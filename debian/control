@@ -14,6 +14,7 @@ Package: gtk2-engines-qtcurve
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kde-style-qtcurve
+Multi-Arch: same
 Description: This is a set of widget styles for Gtk2 based apps
  This package together with kde-style-qtcurve aim to provide a unified look
  and feel on the desktop when using KDE and GNOME applications.
