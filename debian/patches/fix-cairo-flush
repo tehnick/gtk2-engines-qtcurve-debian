@@ -1,6 +1,8 @@
 Description: Fix memory leak
-Author: Boris Pek <tehnick-8@mail.ru>
-Last-Update: 2012-10-24
+Bug: https://bugs.freedesktop.org/show_bug.cgi?id=54657#c4
+Author: Chris Wilson <chris@chris-wilson.co.uk>
+Reviewed-by: Boris Pek <tehnick-8@mail.ru>
+Last-Update: 2012-10-25
 
 --- a/style/shadowhelper.c
 +++ b/style/shadowhelper.c
