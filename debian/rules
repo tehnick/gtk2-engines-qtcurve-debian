@@ -9,6 +9,9 @@ export CPPFLAGS CFLAGS CXXFLAGS LDFLAGS
 %:
 	dh $@ --parallel
 
+override_dh_auto_configure:
+	dh_auto_configure -- -DQTC_MODIFY_MOZILLA=false
+
 get-orig-source:
 	uscan --noconf --verbose --force-download --rename --download-current-version
 
