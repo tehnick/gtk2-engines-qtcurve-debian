@@ -1,3 +1,13 @@
+gtk2-engines-qtcurve (1.8.15-3) unstable; urgency=low
+
+  * Add debian/patches/fix-cairo-flush: fix memory leak.
+  * Add "Multi-Arch: same" to package gtk2-engines-qtcurve. (LP: #974993)
+  * Fix get-orig-source section in according with Debian Policy §4.9.
+  * Build with -DQTC_MODIFY_MOZILLA=false:
+    do not modify Iceweasel and/or Firefox settings. (Closes: #590521)
+
+ -- Boris Pek <tehnick-8@mail.ru>  Mon, 29 Oct 2012 23:17:52 +0200
+
 gtk2-engines-qtcurve (1.8.15-2) unstable; urgency=low
 
   * debian/rules was updated:
