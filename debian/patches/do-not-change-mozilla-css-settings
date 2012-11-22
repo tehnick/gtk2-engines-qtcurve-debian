@@ -1,0 +1,25 @@
+Description: Do not change mozilla css settings
+ Do not change files ~/.mozilla/firefox/*.default/chrome/userChrome.css
+Bug-Debian: http://bugs.debian.org/590521
+Author: Boris Pek <tehnick-8@mail.ru>
+Last-Update: 2012-11-23
+
+--- a/style/qt_settings.c
++++ b/style/qt_settings.c
+@@ -2114,11 +2114,16 @@
+                     GdkColor *menu_col=SHADE_CUSTOM==opts.shadeMenubars
+                                         ? &opts.customMenubarsColor
+                                         : &qtSettings.colors[PAL_ACTIVE][COLOR_SELECTED];
++#ifdef QTC_MODIFY_MOZILLA
+                     gboolean add_menu_colors=SHADE_BLEND_SELECTED==opts.shadeMenubars || SHADE_SELECTED==opts.shadeMenubars ||
+                                              SHADE_WINDOW_BORDER==opts.shadeMenubars ||
+                                              opts.customMenuTextColor || !opts.useHighlightForMenu ||
+                                              (SHADE_CUSTOM==opts.shadeMenubars && TOO_DARK(*menu_col) ),
+                              add_btn_css=FALSE;
++#else
++                    gboolean add_menu_colors=FALSE,
++                             add_btn_css=FALSE;
++#endif
+ 
+                     mozVersion=getMozillaVersion(getpid());
+ #ifdef QTC_MODIFY_MOZILLA
