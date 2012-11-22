@@ -1,3 +1,11 @@
+gtk2-engines-qtcurve (1.8.15-4) unstable; urgency=low
+
+  * Add debian/patches/do-not-change-mozilla-css-settings:
+    do not change files ~/.mozilla/firefox/*.default/chrome/userChrome.css
+    (Closes: #590521)
+
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 23 Nov 2012 00:10:24 +0200
+
 gtk2-engines-qtcurve (1.8.15-3) unstable; urgency=low
 
   * Add debian/patches/fix-cairo-flush: fix memory leak.
