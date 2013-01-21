@@ -1,3 +1,12 @@
+gtk2-engines-qtcurve (1.8.16-1) experimental; urgency=low
+
+  * Update to stable release 1.8.16.
+  * Remove obsolete DM-Upload-Allowed flag.
+  * Bump Standards-Version to 3.9.4 (was 3.9.3): no changes required.
+  * Delete debian/patches/fix-cairo-flush: now available in upstream.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Mon, 21 Jan 2013 23:25:56 +0200
+
 gtk2-engines-qtcurve (1.8.15-4) unstable; urgency=low
 
   * Add debian/patches/do-not-change-mozilla-css-settings:
