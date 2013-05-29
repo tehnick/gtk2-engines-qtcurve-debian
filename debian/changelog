@@ -1,3 +1,12 @@
+gtk2-engines-qtcurve (1.8.16-2) unstable; urgency=low
+
+  * Move package to unstable: no changes required.
+  * Add debian/patches/workaround-for-bug-in-libglib-2.36.1:
+    workaround for bug in libglib >= 2.36.1. (Closes: #707946)
+  * Update years in debian/copyright.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Thu, 30 May 2013 00:41:37 +0300
+
 gtk2-engines-qtcurve (1.8.16-1) experimental; urgency=low
 
   * Update to stable release 1.8.16.
